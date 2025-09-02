@@ -94,5 +94,11 @@
     "desc": "分享技术、记录成长",
     "link": "https://deshengdulikaifa.com",
     "icon": "https://deshengdulikaifa.com/uploads/20250627/a68d5863c4efdfd519f25c58a4a4d874.png"
+  },
+  {
+    "title": "Rust工具箱",
+    "desc": "Rust+国内替代品，只需几步就可以让你的基地变的智能起来，更好的自动化逻辑，更快的自动化部署，更安全的环境！",
+    "link": "https://www.rustplus.cn",
+    "icon": "https://www.rustplus.cn/logo.png"
   }
 ]
