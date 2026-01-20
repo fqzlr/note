@@ -3,12 +3,12 @@ layout: home
 layoutClass: 'm-home-layout'
 
 hero:
-  name: 番茄煮理人
+  name: fqzlr
   text: 🍅的成长之路
   tagline: 知识是进步的阶梯，争取每天都有知识点更新
   image:
     src: /logo.png
-    alt: 茂茂物语
+    alt: 番茄主理人
   actions:
     - text: 前端物语
       link: /fe/es6/
