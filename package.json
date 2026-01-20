@@ -7,14 +7,14 @@
   "description": "Development related notes",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/maomao1996/mm-notes.git"
+    "url": "git+https://github.com/fqzlr/mm-notes.git"
   },
   "bugs": {
-    "url": "https://github.com/maomao1996/mm-notes/issues"
+    "url": "https://github.com/fqzlr/mm-notes/issues"
   },
   "license": "MIT",
-  "homepage": "https://github.com/maomao1996/mm-notes#readme",
-  "author": "maomao1996 <1714487678@qq.com>",
+  "homepage": "https://github.com/fqzlr/mm-notes#readme",
+  "author": "fqzlr <20447289@qq.com>",
   "scripts": {
     "dev": "cross-env NODE_ENV=development vitepress dev docs --port=8732",
     "build": "npm run daily-notes && vitepress build docs",

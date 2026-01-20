@@ -30,7 +30,7 @@
 - <https://notes.fe-mm.com>
 - <https://mm-notes.vercel.app>
 - <https://mm-notes.netlify.app>
-- <https://maomao1996.github.io/mm-notes>
+- <https://fqzlr.github.io/mm-notes>
 
 ## 鼓励作者
 
