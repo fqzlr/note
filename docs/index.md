@@ -104,6 +104,6 @@ import MFriends from './home/MFriends.vue'
 .m-home-layout .item:last-child .details {
   display: flex;
   justify-content: flex-end;
-  align-items: end;
+  align-items: flex-end;;
 }
 </style>
