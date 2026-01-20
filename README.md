@@ -1,5 +1,5 @@
 <<<<<<< HEAD
-# 茂茂物语
+# 番茄煮理人
 
 - 前端物语
   - JavaScript
@@ -28,10 +28,8 @@
 
 ## 访问地址
 
-- <https://notes.fe-mm.com>
-- <https://mm-notes.vercel.app>
-- <https://mm-notes.netlify.app>
-- <https://fqzlr.github.io/mm-notes>
+
+- <https://fqzlr.github.io/note>
 
 ## 鼓励作者
 

@@ -1,5 +1,5 @@
 {
-  "name": "mm-notes",
+  "name": "note",
   "type": "module",
   "private": true,
   "version": "1.0.0",
@@ -7,13 +7,13 @@
   "description": "Development related notes",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/fqzlr/mm-notes.git"
+    "url": "git+https://github.com/fqzlr/note.git"
   },
   "bugs": {
-    "url": "https://github.com/fqzlr/mm-notes/issues"
+    "url": "https://github.com/fqzlr/note/issues"
   },
   "license": "MIT",
-  "homepage": "https://github.com/fqzlr/mm-notes#readme",
+  "homepage": "https://github.com/fqzlr/note#readme",
   "author": "fqzlr <20447289@qq.com>",
   "scripts": {
     "dev": "cross-env NODE_ENV=development vitepress dev docs --port=8732",
