@@ -311,7 +311,7 @@ jobs:
           # 当需要操作其他仓库时，需要配置个人的 token（根据需要设置）
           token: ${{ secrets.ACCESS_TOKEN }}
           # 指定仓库（根据需要设置）
-          repository-name: maomao1996/mm-notes
+          repository-name: fqzlr/note
           # GitHub Pages 读取的分支
           branch: gh-pages
           # 静态文件所在目录
@@ -392,13 +392,13 @@ git log -1 --diff-filter=A --follow --pretty="%ci" "./docs/index.md"
 ## 本地不同分支关联不同的远程仓库
 
 ::: tip
-以茂茂的 [mm-notes](https://github.com/maomao1996/mm-notes) 和 [daily-notes](http://github.com/maomao1996/daily-notes) 仓库为例
+以茂茂的 [mm-notes](https://github.com/fqzlr/note) 和 [daily-notes](http://github.com/maomao1996/daily-notes) 仓库为例
 :::
 
 1. `clone` 仓库 `mm-notes`（默认的 `remote` 为 `origin`）
 
 ```sh
-git clone https://github.com/maomao1996/mm-notes
+git clone https://github.com/fqzlr/note
 ```
 
 2. 添加远程仓库 `daily-notes`（`remote` 取名为 `daily-notes`）

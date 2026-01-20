@@ -24,7 +24,7 @@ const data = [
 <template>
   <p class="m-sponsor-title">
     鼓励作者：欢迎
-    <VPLink href="https://github.com/maomao1996/mm-notes" no-icon>star</VPLink>
+    <VPLink href="https://github.com/fqzlr/note" no-icon>star</VPLink>
     或打赏犒劳
   </p>
   <VPDocAsideSponsors :data="data" />

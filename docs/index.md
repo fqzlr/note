@@ -70,7 +70,7 @@ import MFriends from './home/MFriends.vue'
 **申请方式**:
 
 1. 在本页面留言
-2. 直接访问 [GitHub 友链申请页面](https://github.com/maomao1996/mm-notes/issues/95) 提交您的申请
+2. 直接访问 [GitHub 友链申请页面](https://github.com/fqzlr/note/issues/95) 提交您的申请
 
 **本站信息**：
 

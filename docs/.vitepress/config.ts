@@ -78,7 +78,7 @@ export default defineConfig({
     },
 
     comment: {
-      repo: 'maomao1996/mm-notes',
+      repo: 'fqzlr/note',
       repoId: 'MDEwOlJlcG9zaXRvcnkxNTc0ODc5Mjg=',
       category: 'Announcements',
       categoryId: 'DIC_kwDOCWMTOM4CZ2rf',
