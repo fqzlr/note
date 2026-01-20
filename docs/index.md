@@ -3,8 +3,8 @@ layout: home
 layoutClass: 'm-home-layout'
 
 hero:
-  name: 茂茂物语
-  text: Mao Mao 的成长之路
+  name: 番茄煮理人
+  text: 🍅的成长之路
   tagline: 知识是进步的阶梯，争取每天都有知识点更新
   image:
     src: /logo.png
