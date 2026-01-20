@@ -1,5 +1,5 @@
 ---
-description: 茂茂：吾志所向，一往无前。一个想躺平的小开发
+description: 🍅：月入三千八，每日笑哈哈。一个想躺平的🍅
 layoutClass: m-mao-layout
 aside: false
 ---
@@ -11,11 +11,11 @@ aside: false
 }
 </style>
 
-# 茂茂 <Badge text="maoamo" /> <Badge text="maoamo1996" />
+# 🍅 <Badge text="fqzlr" /> <Badge text="fqzlr" />
 
 ```sh:no-line-numbers
-吾志所向，一往无前。
-                                -- 一个想躺平的小开发
+月入三千八，每日笑哈哈。
+                                -- 一个想躺平的🍅
 ```
 
 **About:**

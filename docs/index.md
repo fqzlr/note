@@ -75,14 +75,14 @@ import MFriends from './home/MFriends.vue'
 **本站信息**：
 
 - 网站名称: **番茄煮理人**
-- 网站描述: **茂茂的成长之路，包含前端常用知识、源码阅读笔记、各种奇淫技巧、日常提效工具等**
+- 网站描述: **番茄煮理人的成长之路，包含前端常用知识、源码阅读笔记、各种奇淫技巧、日常提效工具等**
 - 网站地址：**<https://notes.fe-mm.com>**
 - 网站图标：**<https://notes.fe-mm.com/logo.png>**
 
 ```json
 {
-  "title": "茂茂物语",
-  "desc": "茂茂的成长之路，包含前端常用知识、源码阅读笔记、各种奇淫技巧、日常提效工具等",
+  "title": "番茄主理人",
+  "desc": "番茄的成长之路，包含前端常用知识、源码阅读笔记、各种奇淫技巧、日常提效工具等",
   "link": "https://notes.fe-mm.com",
   "icon": "https://notes.fe-mm.com/logo.png"
 }
