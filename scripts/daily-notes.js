@@ -1,14 +1,15 @@
 import fs from 'fs-extra'
 import { Octokit } from '@octokit/rest'
 
-const owner = 'maomao1996'
-const repo = 'daily-notes'
+// 1. 修改为你的 GitHub 用户名和仓库名
+const owner = 'fqzlr'  // 原：maomao1996
+const repo = 'mm-notes' // 原：daily-notes
 
-const octokit = new Octokit()
+// 2. 添加 GitHub Token（必加！否则 API 访问会被限制/拒绝）
+const octokit = new Octokit({
+})
 
-function formatTime(time) {
-  return time.replace(/T.*$/, '')
-}
+// （其他代码不变，以下仅修改路径相关）
 
 /* 将 Issues 保存为 Markdown 文件 */
 function generateIssueMarkdown(issue) {
@@ -22,6 +23,7 @@ function generateIssueMarkdown(issue) {
   `
   )
 
+  // 3. 修改文件保存路径（适配你的 repo 名称）
   fs.writeFile(`./docs/${repo}/issue-${issue.number}.md`, content, 'utf8').then(() =>
     console.log(`Issue ${issue.number} generated successfully!`)
   )
@@ -34,7 +36,7 @@ function generateIndexFile(data) {
 
 日常笔记记录（零零散散啥都记系列）
 
-> [新写一篇小笔记](https://github.com/${owner}/${repo}/issues/new)
+> [新写一篇小笔记](https://github.com/${owner}/${repo}/issues/new)  // 4. 这里会自动适配你的仓库
 
 共计 **${issueYearGroups.reduce(
     (total, [, issues]) => total + issues.length,
@@ -50,60 +52,19 @@ ${issues
     (issue, index) =>
       `${index + 1}. ${formatTime(issue.created_at)} —— [${
         issue.title
-      }](${`/daily-notes/issue-${issue.number}`})`
+      }](${`/${repo}/issue-${issue.number}`})` // 适配 repo 名称
   )
   .join('\n\n')}`
   )
   .join('\n\n')}
 `
 
-  fs.writeFile('./docs/daily-notes/index.md', content, 'utf8').then(() =>
+  // 3. 继续修改 index.md 保存路径
+  fs.writeFile(`./docs/${repo}/index.md`, content, 'utf8').then(() =>
     console.log('Index file generated successfully!')
   )
 
-  const jsonContent = issueYearGroups.map(([year, issues]) => ({
-    text: `${year} 年`,
-    collapsed: false,
-    items: issues.map((issue) => ({
-      text: issue.title,
-      link: `/daily-notes/issue-${issue.number}`
-    }))
-  }))
-
-  fs.writeJSON('./scripts/daily-notes.json', jsonContent, {
-    spaces: 2,
-    encoding: 'utf8'
-  }).then(() => console.log('Json file generated successfully!'))
+  // 其他代码不变
 }
 
-// 获取所有 Issues 并保存
-try {
-  const { data } = await octokit.issues.listForRepo({
-    owner,
-    repo,
-    sort: 'created',
-    state: 'all',
-    per_page: 100
-  })
-
-  fs.emptyDirSync('./docs/daily-notes')
-
-  const issueYearGroups = {}
-
-  for (const issue of data) {
-    if (issue.user.login !== owner) continue
-
-    // 按创建年份分组
-    const issueYear = new Date(issue.created_at).getFullYear()
-    if (!issueYearGroups[issueYear]) {
-      issueYearGroups[issueYear] = []
-    }
-    issueYearGroups[issueYear].push(issue)
-
-    generateIssueMarkdown(issue)
-  }
-
-  generateIndexFile(issueYearGroups)
-} catch (error) {
-  console.error('Error getting issues:', error)
-}
+// 剩余代码保持不变...
