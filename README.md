@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # 茂茂物语
 
 - 前端物语
@@ -37,3 +38,7 @@
 如果你觉得博客对你有帮助，可以帮忙点个 `star` 或者打赏犒劳一下
 
 ![鼓励作者](https://cdn.jsdelivr.net/gh/maomao1996/picture/sponsor/sponsor.jpg)
+=======
+# note
+番茄笔记
+>>>>>>> 0d6a7448e05952368975c32ee3ae66fc84d1304a
