@@ -87,8 +87,8 @@ import MFriends from './home/MFriends.vue'
   "icon": "https://notes.fe-mm.com/logo.png"
 }
 ```
-
-:::
+::: details 此站点转自 https://github.com/maomao1996
+::: details 番茄
 
 <style>
 /*爱的魔力转圈圈*/
