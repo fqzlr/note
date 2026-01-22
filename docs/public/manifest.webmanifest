@@ -1,7 +1,7 @@
 {
-  "name": "茂茂物语",
-  "short_name": "茂茂物语",
-  "description": "Mao Mao 的成长之路",
+  "name": "番茄主理人",
+  "short_name": "🍅",
+  "description": "🍅 的成长之路",
   "start_url": "./index.html",
   "display": "standalone",
   "background_color": "#000000",

@@ -17,8 +17,8 @@ hero:
       theme: alt
     - text: 日常笔记
       link: /daily-notes/
-    - text: mmPlayer
-      link: https://netease-music.fe-mm.com
+    - text: home
+      link: https://home.682000.xyz
       theme: alt
 features:
   - icon: 📖
