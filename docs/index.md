@@ -11,6 +11,12 @@ hero:
     src: /logo.png
     alt: 番茄主理人
   actions:
+    - text: 小窝
+      link: https://home.682000.xyz
+      theme: alt
+    - text: 博客
+      link: https://bk.682000.xyz
+      theme: alt
     - text: 前端物语
       link: /fe/es6/
     - text: 前端导航
@@ -18,9 +24,7 @@ hero:
       theme: alt
     - text: 日常笔记
       link: /daily-notes/
-    - text: 小窝
-      link: https://home.682000.xyz
-      theme: alt
+   
 features:
   - icon: 📖
     title: 前端物语
