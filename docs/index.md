@@ -16,15 +16,14 @@ hero:
       theme: alt
     - text: 博客
       link: https://bk.682000.xyz
-      theme: alt
     - text: 前端物语
       link: /fe/es6/
+      theme: alt
     - text: 前端导航
       link: /nav
-      theme: alt
     - text: 日常笔记
       link: /daily-notes/
-   
+      theme: alt
 features:
   - icon: 📖
     title: 前端物语

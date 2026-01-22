@@ -181,12 +181,6 @@ export const NAV_DATA: NavData[] = [
         link: 'https://github.com/maomao1996/daily-notes'
       },
       {
-        icon: '/logo.png',
-        title: '前端思维导图',
-        desc: '用思维导图的方式总结个人所学知识',
-        link: 'https://mindmap.fe-mm.com'
-      },
-      {
         icon: 'https://qwerty.fe-mm.com/apple-touch-icon.png',
         title: 'Qwerty Learner',
         desc: '为键盘工作者设计的单词记忆与英语肌肉记忆锻炼软件',
