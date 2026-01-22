@@ -87,7 +87,7 @@ export default defineConfig({
 
   /* 生成站点地图 */
   sitemap: {
-    hostname: 'https://notes.fe-mm.com/',
+    hostname: 'https://bj.682000.xyz/',
   },
 
   vite: {
