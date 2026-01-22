@@ -91,10 +91,8 @@ import MFriends from './home/MFriends.vue'
 
 
 ---
-
-:::
- details 此站点转自 https://github.com/maomao1996
-:::
+此站点转自 https://github.com/maomao1996
+---
 <style>
 /*爱的魔力转圈圈*/
 .m-home-layout .image-src:hover {
