@@ -4,8 +4,9 @@ layoutClass: 'm-home-layout'
 
 hero:
   name: fqzlr
-  text: 🍅的成长之路
+  text: 🍅番茄主理人的成长小记
   tagline: 今天的潦草收场，是明天的开场序章
+  description: （种自己的花，爱自己的宇宙）
   image:
     src: /logo.png
     alt: 番茄主理人
@@ -17,7 +18,7 @@ hero:
       theme: alt
     - text: 日常笔记
       link: /daily-notes/
-    - text: home
+    - text: 小窝
       link: https://home.682000.xyz
       theme: alt
 features:
