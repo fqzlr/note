@@ -5,7 +5,7 @@ layoutClass: 'm-home-layout'
 hero:
   name: fqzlr
   text: 🍅的成长之路
-  tagline: 知识是进步的阶梯，争取每天都有知识点更新
+  tagline: 今天的潦草收场，是明天的开场序章
   image:
     src: /logo.png
     alt: 番茄主理人
