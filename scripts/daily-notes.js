@@ -2,10 +2,10 @@ import fs from 'fs-extra'
 import { Octokit } from '@octokit/rest'
 
 // 1. 修改为你的 GitHub 用户名和仓库名
-const owner = 'fqzlr'  // 原：maomao1996
+const owner = 'fqzlr'  // 
 const repo = 'mm-notes' // 原：daily-notes
 
-// 2. 添加 GitHub Token（必加！否则 API 访问会被限制/拒绝）
+
 const octokit = new Octokit({
 })
 
@@ -63,8 +63,4 @@ ${issues
   fs.writeFile(`./docs/${repo}/index.md`, content, 'utf8').then(() =>
     console.log('Index file generated successfully!')
   )
-
-  // 其他代码不变
 }
-
-// 剩余代码保持不变...
